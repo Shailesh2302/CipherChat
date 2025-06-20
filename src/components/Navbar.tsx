@@ -129,7 +129,7 @@ function Navbar() {
                 className="text-xl font-bold bg-gradient-to-r from-white to-purple-200 bg-clip-text text-transparent group-hover:from-purple-300 group-hover:to-cyan-300 transition-all duration-300"
                 whileHover={{ scale: 1.05 }}
               >
-                True Feedback
+                CipherChat
               </motion.span>
             </Link>
           </motion.div>
