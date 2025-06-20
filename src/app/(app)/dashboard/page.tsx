@@ -1,6 +1,5 @@
 "use client";
 
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import { MessageCard } from "@/components/MessageCard";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
@@ -17,13 +16,10 @@ import {
   Share2,
   MessageSquare,
   Settings,
-  ExternalLink,
-  Users,
+  
   TrendingUp,
-  Shield,
   Bell,
   BellOff,
-  ChevronRight,
   Sparkles,
   Eye,
   EyeOff,

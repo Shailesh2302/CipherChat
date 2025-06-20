@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 'use client';
 
 // import Image from 'next/image';
@@ -8,8 +7,7 @@ import { Mail, MessageCircle, Shield, Sparkles, ArrowRight, Users, Eye, Lock } f
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import Autoplay from 'embla-carousel-autoplay';
 import messages from '@/messages.json';
-import { motion, AnimatePresence, Variants } from 'framer-motion';
-import { useState, useEffect } from 'react';
+import { motion , Variants } from 'framer-motion';
 import {
   Carousel,
   CarouselContent,
@@ -19,7 +17,6 @@ import {
 } from '@/components/ui/carousel';
 
 export default function Home() {
-  const [currentMessageIndex, setCurrentMessageIndex] = useState(0);
 
   const containerVariants: Variants = {
     hidden: { opacity: 0 },
